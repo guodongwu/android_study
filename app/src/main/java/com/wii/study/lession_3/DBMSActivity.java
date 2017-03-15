@@ -14,6 +14,11 @@ import android.widget.Toast;
 import com.wii.study.R;
 import com.wii.study.tools.SQLiteUtil;
 
+/**
+ *
+ *
+ *
+ */
 public class DBMSActivity extends AppCompatActivity implements View.OnClickListener {
 
     private SQLiteUtil sqLiteUtil;

@@ -18,7 +18,11 @@ import com.wii.study.tools.ColorUtil;
 
 import java.util.Timer;
 import java.util.TimerTask;
-
+/**
+ *
+ * 线程
+ *
+ * */
 public class TimerActivity extends AppCompatActivity {
 
 

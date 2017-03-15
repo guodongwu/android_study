@@ -9,6 +9,7 @@ import org.xutils.x;
 
 /**
  * Created by wu on 2017/3/13.
+ * Xutils 程序入口
  */
 
 public class App extends Application {

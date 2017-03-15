@@ -23,6 +23,9 @@ import org.xutils.x;
 
 import java.util.ArrayList;
 import java.util.List;
+/**
+ * 流行框架
+ * **/
 
 @ContentView(R.layout.activity_xutils)
 public class XutilsActivity extends AppCompatActivity {

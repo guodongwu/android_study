@@ -25,7 +25,9 @@ import com.wii.study.lession_8.xutils.XutilsActivity;
 import com.wii.study.lession_9.PagerActivity;
 
 import java.util.concurrent.atomic.AtomicInteger;
-
+/**
+ * 入口
+ * **/
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
     private static final AtomicInteger sNextGeneratedId = new AtomicInteger(1);
     @Override

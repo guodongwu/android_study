@@ -17,6 +17,12 @@ import com.wii.study.tools.HttpUtil;
 import java.lang.reflect.Type;
 import java.util.List;
 
+/**
+ *
+ * API调用
+ *
+ *
+ * **/
 
 public class JokeActivity extends AppCompatActivity {
 

@@ -19,6 +19,10 @@ import java.lang.reflect.Field;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ *
+ * Dialog
+ * **/
 public class PopupActivity extends AppCompatActivity implements View.OnClickListener {
 
     private Button btnNormal1;

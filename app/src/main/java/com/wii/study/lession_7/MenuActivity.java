@@ -11,7 +11,10 @@ import android.widget.TabHost;
 import android.widget.Toast;
 
 import com.wii.study.R;
-
+/**
+ * 菜单神马的 但是还是有很多不是很懂
+ *
+ * **/
 public class MenuActivity extends AppCompatActivity {
     private TabHost tabHost;
     private RadioGroup radiogroup;

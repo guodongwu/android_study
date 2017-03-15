@@ -21,6 +21,10 @@ import android.widget.TextView;
 
 import com.wii.study.R;
 
+/**
+ * AS自带的Pager
+ *
+ * **/
 public class PagerActivity extends AppCompatActivity {
 
     /**

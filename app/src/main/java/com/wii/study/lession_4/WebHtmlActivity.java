@@ -14,6 +14,11 @@ import android.widget.Toast;
 
 import com.wii.study.R;
 
+/**
+*
+ * 混合开发初步涉及 js调用
+*
+* */
 public class WebHtmlActivity extends AppCompatActivity  {
     private WebView wv;
 

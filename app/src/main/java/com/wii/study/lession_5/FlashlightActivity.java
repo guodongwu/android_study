@@ -11,7 +11,9 @@ import com.wii.study.lession_5.light.BulbActivity;
 import com.wii.study.lession_5.light.FlashActivity;
 import com.wii.study.lession_5.light.MorseActivity;
 import com.wii.study.lession_5.light.WarningActivity;
-
+/**
+ * 手机闪光灯调用
+ * **/
 public class FlashlightActivity extends AppCompatActivity implements  View.OnClickListener {
 
     private ImageView iv_flashlight;
