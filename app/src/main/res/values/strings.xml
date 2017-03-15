@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Study</string>
+    <string name="icon_flashlight">手电筒</string>
+    <string name="icon_warninglight">警示灯</string>
+    <string name="icon_morse">摩尔斯电码</string>
+    <string name="icon_bulb">电灯泡</string>
+    <string name="icon_colorlight">彩色灯</string>
+    <string name="icon_policelight">警灯</string>
+    <string name="morse_text1">请输入摩尔斯电码字符串</string>
+    <string name="morse_text2">必须由数字、字母或空格组成</string>
+    <string name="morse_default">SOS</string>
+    <string name="bulb_text">电灯泡：点击变亮</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_pager">PagerActivity</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+</resources>

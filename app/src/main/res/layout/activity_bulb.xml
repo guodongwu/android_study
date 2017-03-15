@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_bulb"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.wii.study.lession_5.light.BulbActivity"
+    android:orientation="vertical">
+    <ImageView
+        android:id="@+id/iv_bulb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/bulb" />
+
+    <TextView
+        android:id="@+id/tv_bulb"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:text="@string/bulb_text"
+        android:textColor="@color/BLACK"
+        android:textSize="18sp" >
+    </TextView>
+</LinearLayout>
