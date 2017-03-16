@@ -13,6 +13,7 @@ import android.widget.LinearLayout;
 
 import com.wii.study.lession_1.TimerActivity;
 import com.wii.study.lession_10.DateActivity;
+import com.wii.study.lession_11.MapActivity;
 import com.wii.study.lession_2.JokeActivity;
 import com.wii.study.lession_3.DBMSActivity;
 import com.wii.study.lession_4.WebHtmlActivity;
@@ -119,6 +120,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 break;
             case 10:
                 intent=new Intent(MainActivity.this, DateActivity.class);
+                startActivity(intent);
+                break;
+            case 11:
+                intent=new Intent(MainActivity.this, MapActivity.class);
                 startActivity(intent);
                 break;
 
