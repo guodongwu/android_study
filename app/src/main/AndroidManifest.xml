@@ -55,7 +55,8 @@
         <activity
             android:name=".lession_9.PagerActivity"
             android:label="@string/title_activity_pager"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".lession_10.DateActivity"></activity>
     </application>
 
 </manifest>

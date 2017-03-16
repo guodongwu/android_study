@@ -12,6 +12,7 @@ import android.widget.Button;
 import android.widget.LinearLayout;
 
 import com.wii.study.lession_1.TimerActivity;
+import com.wii.study.lession_10.DateActivity;
 import com.wii.study.lession_2.JokeActivity;
 import com.wii.study.lession_3.DBMSActivity;
 import com.wii.study.lession_4.WebHtmlActivity;
@@ -114,6 +115,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 startActivity(intent);
             case 9:
                 intent=new Intent(MainActivity.this, PagerActivity.class);
+                startActivity(intent);
+                break;
+            case 10:
+                intent=new Intent(MainActivity.this, DateActivity.class);
                 startActivity(intent);
                 break;
 
