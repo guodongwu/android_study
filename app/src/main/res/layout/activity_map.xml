@@ -5,10 +5,25 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.wii.study.lession_11.MapActivity">
-<com.amap.api.maps2d.MapView
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:id="@+id/map_view">
 
-</com.amap.api.maps2d.MapView>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvLat"
+            android:textSize="24sp"
+            android:text="经纬度信息：" />
+
+        <com.amap.api.maps2d.MapView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/map_view">
+
+    </com.amap.api.maps2d.MapView>
+    </LinearLayout>
+
 </RelativeLayout>
